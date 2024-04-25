@@ -428,7 +428,7 @@ Public Class frmPosDetail
                 If dgvData.Rows(e.RowIndex).Cells(3).Value Is Nothing OrElse dgvData.Rows(e.RowIndex).Cells(3).Value.ToString() = "" Then dgvData.Rows(e.RowIndex).Cells(3).Value = "0"
                 Dim Quantity As Integer = dgvData.Rows(e.RowIndex).Cells(3).Value
                 '/ UnitPrice
-                If dgvData.Rows(e.RowIndex).Cells(4).Value Is Nothing OrElse dgvData.Rows(e.RowIndex).Cells(4).Value.ToString() = "" Then dgvData.Rows(e.RowIndex).Cells(4).Value = "0.00"
+                If dgvData.Rows(e.RowIndex).Cells(4).Value Is Nothing OrElse dgvData.Rows(e.RowIndex).Cells(4).Value.ToString() = "" OrElse dgvData.Rows(e.RowIndex).Cells(4).Value.ToString() = "." Then dgvData.Rows(e.RowIndex).Cells(4).Value = "0.00"
                 Dim UnitPrice As Double = dgvData.Rows(e.RowIndex).Cells(4).Value
                 dgvData.Rows(e.RowIndex).Cells(4).Value = Format(CDbl(dgvData.Rows(e.RowIndex).Cells(4).Value), "0.00")
 
