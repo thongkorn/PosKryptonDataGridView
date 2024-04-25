@@ -1,5 +1,7 @@
 # Demonstrate Pos Detail with KryptonDataGridView.
 # Visual Basic .Net (2017) & .Net Framework 4.6.2+
+## Krypton Toolkit DataGridView for Visual Basic .NET https://github.com/thongkorn/KryptonToolkitDataGridView
+
 
 ### โค้ดชุดนี้ต่อเนื่องมาจากครั้งก่อน https://github.com/thongkorn/DetailDataGridView แต่เปลี่ยนจาก DataGridView ของ Microsoft มาเป็น KryptonDataGridView ของฟรีแทน เพื่อปรับแต่งให้ทั้งฟอร์มและตารางกริดมีความสวยงามมากยิ่งขึ้น รวมไปถึงใส่การคำนวณภาษีมาให้ครบด้วย
 
